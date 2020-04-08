@@ -21,7 +21,7 @@ Eg = 1.1557-(7.021 * 10**-4 * T**2)/(1108 + T)
 DARK_e = t * 2.55*10**15 * PA * DFM * T**1.5 * np.exp(-Eg/(2 * k1 * T))
 DARK = DARK_e / edn
 
-C = np.random.normal(0, 1, (number_pixels, 1))
+C = np.random.normal(0, 1, (number_pixels, 1)) 
 F = np.random.normal(0, 1, (number_pixels, 1))
 
 
